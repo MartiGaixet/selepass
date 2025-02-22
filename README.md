@@ -14,7 +14,7 @@ Las tecnologías que usaremos para crear nuestro proyecto se dividen en las sigu
 - **Base de Datos:** SQL (SQL Server, SQL Workbench, etc.)
 
 ## 📈 Diagramas
-*(Incluir diagramas aquí)*
+Aquí estaran los links a los diagramas en un futuro
 
 ## 💻 Página Web
 
@@ -30,7 +30,7 @@ Las tecnologías que usaremos para crear nuestro proyecto se dividen en las sigu
 | PIGMENT GREEN | #009D2F | (0,157,47) |
 
 ### 👀 Logo
-*(Incluir logo aquí)*
+[Ver en Canva](https://www.canva.com/design/DAGcD2iawhE/hbo78PWuoMGw2k1kDTBnmw/edit?utm_content=DAGcD2iawhE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ## 🔗 Funcionalidades Web
 
