@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# Selepass
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📖 Idea del Proyecto
+SelePass es una plataforma web dirigida a estudiantes de 17 a 20 años que buscan mejorar su preparación para la Selectividad. Junto con un diseño moderno, la aplicación ofrece seguimiento de fechas clave, recordatorios personalizados, todos los exámenes de la EBAU hasta la fecha y apuntes para poder ir bien preparado.
 
-## Available Scripts
+## 🎯 Nuestros Objetivos
+Nuestros objetivos con esta web serían principalmente un uso completamente funcional y útil, además de conseguir cierta escalabilidad para crear un proyecto en el futuro debido al hueco de mercado que le vemos a nuestra competencia en cuanto a estudio de selectividad se refiere.
 
-In the project directory, you can run:
+## 🌐 Tecnologías Usadas
+Las tecnologías que usaremos para crear nuestro proyecto se dividen en las siguientes partes:
 
-### `npm start`
+- **Frontend:** React
+- **Backend:** C# usando Entity Framework
+- **Base de Datos:** SQL (SQL Server, SQL Workbench, etc.)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📈 Diagramas
+*(Incluir diagramas aquí)*
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 💻 Página Web
 
-### `npm test`
+### 💭 Mockup
+[Ver en Figma](https://www.figma.com/design/m1nGkAvGkDCec9DQfVK4Da/SelePass?node-id=0-1&t=9kfdj9fZRGpYd9RT-1)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 🎨 Paleta De Colores
+| Color | HEX | RGB |
+|--------|--------|----------------|
+| WHITE | #FFFFFF | (255,255,255) |
+| COLUMBIA BLUE | #C4D7F2 | (196,215,242) |
+| GLAUCOUS | #708ABA | (112,138,186) |
+| PIGMENT GREEN | #009D2F | (0,157,47) |
 
-### `npm run build`
+### 👀 Logo
+*(Incluir logo aquí)*
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🔗 Funcionalidades Web
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+| ID | Prioridad | Requisito | Funcionalidad |
+|----|----------|-----------|---------------|
+| ID0 | Media | Se quiere registrar usuarios en la página | Deberá crearse un sistema de registro de usuarios y posterior login que guarde información individual del usuario |
+| ID1 | Alta | Se quiere crear una colección de todos los exámenes de todas las asignaturas | Deberá crearse una tabla en la base de datos para guardar exámenes y posteriormente la vista en la web que lo muestre y lo pueda filtrar por diferentes requisitos |
+| ID2 | Media | Se quiere crear una colección de apuntes para cada asignatura | Deberá crearse una tabla en la base de datos para guardar apuntes y posteriormente la vista en la web que lo muestre y lo pueda filtrar por diferentes requisitos |
+| ID3 | Baja | Se quiere crear un sistema de envío de emails | Deberá crearse un sistema de envío de emails para avisar a los usuarios registrados sobre fechas clave e información adicional |
+| ID4 | Baja | Se quiere implementar una calculadora | Se deberá implementar una calculadora para calcular notas de corte, medias de bachillerato y fase general, etc. |
+| ID5 | Baja | Se quiere implementar una lista de favoritos | Deberá crearse un sistema de guardado de exámenes y apuntes como favoritos para que sean más accesibles |
+| ID6 | Media | Se quiere implementar un sistema de subida de archivos | Se deberá implementar un sistema de subida de archivos para que los usuarios puedan poner sus propios apuntes y así tener más contenido al alcance de nuestros usuarios |
+| ID7 | Baja | Se quiere implementar un sistema de revisión de archivos | Se deberá implementar un sistema de revisión de archivos para poder controlar que los apuntes subidos por los usuarios sean de calidad |
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📅 Roadmap
+[Trello](https://trello.com/invite/b/67a9c39dc234b43d41638421/ATTIc2bcb962e34d1d953872ece5d60da616D042CCE0/selepass)
