@@ -164,3 +164,63 @@ header{
   padding: 15px 45px;
   color: black;
 }
+
+.yearBox{
+  background-color: #1C1D34;
+  width: 13vw;
+  height: 11vh;
+  border: 2px solid #1C1D34;
+  border-radius: 20px;
+  padding: 25px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.yearBox:hover{
+  border: 2px solid #1C1D34;
+  background-color: transparent;
+  color: #1C1D34;
+}
+
+.yearBoxTitle{
+  color: #7ED957;
+  font-size: 1.5em;
+}
+
+
+.notesBox{
+  background-color: #C4D7F2;
+  height: 65vh;
+  width: 60vh;
+  border-radius: 30px;
+}
+
+.notesBlur{
+  filter: blur(0.25em);
+}
+
+.botonDownload {
+  background-color: rgb(28, 29, 52);
+  color: white;
+  padding: 10px 20px;
+  border: 2px solid rgb(28, 29, 52);
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: bolder;
+  transition: all 0.3s ease;
+}
+
+.botonDownload:hover {
+  background-color: white;
+  color: rgb(28, 29, 52);
+  border: 2px solid rgb(28, 29, 52);
+}
+
+.pngIcon{
+  margin-top: 1.2em;
+  margin-left: -4em;
+  z-index: 1;
+}
+

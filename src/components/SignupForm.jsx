@@ -77,17 +77,33 @@ function SignupForm() {
         </div>
 
         <div>
-        <label>Nota bachillerato/CFGS</label>
-        <input
-          type="number"
-          className="form-control"
-          {...register("nota", {
-            required: "Este campo es obligatorio",
-            min: { value: 0, message: "La nota no puede ser menor que 0" },
-            max: { value: 10, message: "La nota no puede ser mayor que 10" },
-          })}/>
-        {errors.nota && <span className="text-danger">{errors.nota.message}</span>}
-        </div>
+        <label>Comunidad autónoma</label>
+        <select
+    className="form-control"
+    {...register("comunidadAutonoma", {
+      required: "Este campo es obligatorio"
+    })}
+  >
+    <option value="Andalucia">Andalucía</option>
+    <option value="Catalunya">Cataluña</option>
+    <option value="Madrid">Madrid</option>
+    <option value="Valencia">Comunidad Valenciana</option>
+    <option value="Galicia">Galicia</option>
+    <option value="CastillaLaMancha">Castilla-La Mancha</option>
+    <option value="CastillaLeon">Castilla y León</option>
+    <option value="PaisVasco">País Vasco</option>
+    <option value="Canarias">Canarias</option>
+    <option value="Aragon">Aragón</option>
+    <option value="Baleares">Islas Baleares</option>
+    <option value="Murcia">Región de Murcia</option>
+    <option value="Extremadura">Extremadura</option>
+    <option value="Cantabria">Cantabria</option>
+    <option value="Navarra">Navarra</option>
+    <option value="LaRioja">La Rioja</option>
+    <option value="PaisVasco">País Vasco</option>
+  </select>
+  {errors.comunidadAutonoma && <span className="text-danger">{errors.comunidadAutonoma.message}</span>}
+</div>
 
         <div className="d-flex justify-content-center">
           <button className="mt-5 mx-auto botonLogin" type="submit">Registrarse</button>

@@ -1,6 +1,6 @@
 import Header from "../components/Header";
 
-function Home() {
+function Perfil() {
   return (
         <div className="bodyOthers">
             <Header />
@@ -8,4 +8,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Perfil;
